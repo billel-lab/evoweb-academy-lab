@@ -43,6 +43,7 @@ evoweb-academy-lab/
 │
 └── .claude/
     ├── skills/
+    │   ├── nouveau-projet/    ← cadre et démarre un nouveau projet client
     │   ├── nouvelle-section/  ← génère une section de landing propre
     │   ├── verifier/          ← checklist avant de livrer
     │   └── deployer-aide/     ← guide pas-à-pas pour Vercel
