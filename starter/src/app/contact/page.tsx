@@ -8,7 +8,7 @@ import { Send, CheckCircle } from 'lucide-react'
  *
  * MODULE 6 (Supabase + Resend) : pour brancher ce formulaire :
  *   1. Créer une Server Action dans `src/app/actions/contact.ts`
- *   2. Insérer la soumission dans la table Supabase `messages`
+ *   2. Insérer la soumission dans la table Supabase `contacts` (la table créée au Module 6)
  *   3. Envoyer un e-mail de confirmation via Resend
  *   4. Remplacer handleSubmit par un appel à la Server Action
  *

@@ -2,7 +2,7 @@
 
 > Ce fichier est ton carnet de bord d'artisan. À chaque fois que tu commets une erreur, que tu bloques longtemps sur quelque chose, ou que tu découvres une meilleure façon de faire — tu l'écris ici.
 >
-> Le principe est simple : noter pour ne jamais refaire deux fois la même erreur. En Module 8, tu relieras ce journal et tu verras à quel point tu as progressé.
+> Le principe est simple : noter pour ne jamais refaire deux fois la même erreur. Au Module 9 (leçon 4 — ton mini-atelier), tu reliras ce journal et tu verras à quel point tu as progressé.
 
 ---
 

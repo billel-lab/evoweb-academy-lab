@@ -19,12 +19,35 @@
 
 ---
 
-## 2. Stack utilisée
+## 2. Comment me parler
+
+<!-- Cette section apprend à Claude Code COMMENT te parler, à TOI.
+     C'est la partie la plus personnelle de ton atelier : plus tu la précises,
+     plus ce Claude devient TON Claude. Adapte la dernière ligne à ta façon
+     de comprendre. -->
+
+- **Quand je dis « explique-moi »** : réponds étape par étape, en langage
+  simple, comme si je débutais complètement. Ne suppose jamais que je connais
+  un terme technique — définis-le en une phrase la première fois.
+- **Quand je dis « encore plus simple »** : descends encore d'un niveau, avec
+  une analogie du quotidien. Recommence autant de fois que nécessaire, sans
+  jamais me faire sentir que c'est un problème.
+- **Avant une action importante** (supprimer, remplacer, déployer, toucher à
+  la base de données) : explique ce que tu vas faire et vérifie avec moi
+  d'abord.
+- **Quand quelque chose échoue** : explique d'abord POURQUOI en une phrase,
+  ensuite propose la correction. Jamais de correction muette.
+- **Mes préférences :** <!-- adapte ceci : ex. "réponds court", "toujours un
+  exemple concret", "préviens-moi quand une commande va prendre du temps" -->
+
+---
+
+## 3. Stack utilisée
 
 <!-- Garde cette section telle quelle — c'est la stack EvoWeb standard.
      Ajoute ou enlève des éléments si ton projet est différent. -->
 
-- **Framework :** Next.js 15 App Router
+- **Framework :** Next.js 16 App Router
 - **Langage :** TypeScript
 - **Styles :** Tailwind CSS v4
 - **Base de données :** Supabase (PostgreSQL + Auth + Storage)
@@ -34,7 +57,7 @@
 
 ---
 
-## 3. Structure du projet
+## 4. Structure du projet
 
 <!-- adapte ceci si ta structure est différente -->
 
@@ -48,7 +71,7 @@ src/
 
 ---
 
-## 4. Conventions de code
+## 5. Conventions de code
 
 <!-- Ces règles aident Claude à générer du code cohérent avec tes habitudes. -->
 
@@ -61,7 +84,7 @@ src/
 
 ---
 
-## 5. Style & design
+## 6. Style & design
 
 <!-- adapte ceci : décris la palette et le style attendus -->
 
@@ -78,7 +101,7 @@ src/
 
 ---
 
-## 6. Les règles d'or de l'artisan
+## 7. Les règles d'or de l'artisan
 
 <!-- Ne touche pas à cette section — elle s'applique à tous tes projets. -->
 
@@ -104,7 +127,7 @@ src/
 
 ---
 
-## 7. Notes personnelles
+## 8. Notes personnelles
 
 <!-- adapte ceci : ajoute ici tout ce que Claude doit savoir sur ton projet spécifique.
      Ex : "Les horaires du client sont mardi-samedi 9h-18h."

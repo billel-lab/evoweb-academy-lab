@@ -53,11 +53,11 @@ starter/
 
 ## Exercices suggérés
 
-1. **Module 2 — HTML/CSS** : Modifie les couleurs dans `globals.css` (`--color-accent`, `--color-bg`…) et vois le résultat en direct.
-2. **Module 3 — Composants** : Ajoute une quatrième carte dans la section "Nos prestations" (`src/app/page.tsx`).
-3. **Module 4 — Images** : Remplace le bloc placeholder "Photo de l'atelier" par un vrai `<Image>` Next.js.
-4. **Module 5 — TypeScript** : Déplace les données `services` dans un fichier `src/lib/data.ts` et type-les correctement.
-5. **Module 6 — Supabase + Resend** : Branche le formulaire de contact (`src/app/contact/page.tsx`) sur une Server Action qui insère dans Supabase et envoie un e-mail de confirmation avec Resend.
+1. **Module 2 — Lire et modifier du code** : Modifie les couleurs dans `globals.css` (`--color-accent`, `--color-bg`…) et vois le résultat en direct.
+2. **Module 3 — Diriger Claude Code** : Demande à Claude Code d'ajouter une quatrième carte dans la section "Nos prestations" (`src/app/page.tsx`) — en pointant le pattern `ServiceCard` existant dans ton prompt.
+3. **Module 4 — Vérifier le travail de l'IA** : Demande une modification à Claude Code, puis vérifie-la toi-même (`npm run build` + relecture de la page) avant de l'accepter.
+4. **Module 5 — Ta première page** : Remplace le bloc placeholder "Photo de l'atelier" par un vrai `<Image>` Next.js. Pour aller plus loin : déplace les données `services` dans un fichier `src/lib/data.ts` et type-les correctement.
+5. **Module 6 — Supabase + Resend** : Branche le formulaire de contact (`src/app/contact/page.tsx`) sur une Server Action qui insère dans la table Supabase `contacts` et envoie un e-mail de confirmation avec Resend.
 
 ---
 
