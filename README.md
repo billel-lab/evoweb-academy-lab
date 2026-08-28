@@ -11,6 +11,8 @@ Le Lab est un repo clonable qui contient :
 - des **skills Claude Code** déjà configurés pour les tâches courantes
 - des **skills business** pour la partie « vendre » du métier : brief client,
   devis & factures, relance d'impayés
+- le **Kit Premier Client** (6 mockups par secteur + scripts d'approche) et
+  la **Grille Tarifaire** (chiffrer sans te sous-vendre)
 - un skill **`/explique`** anti-blocage : colle ton erreur ou ce que tu n'as
   pas compris, il t'explique comme à un débutant complet
 - un **agent de relecture design** intégré
@@ -39,6 +41,8 @@ evoweb-academy-lab/
 ├── README.md                  ← tu es ici
 ├── CLAUDE.md                  ← instructions pour Claude Code (à adapter à chaque projet)
 ├── WORKFLOW.md                ← ta mission client de A à Z, outil par outil
+├── kit-premier-client.md      ← 6 mockups « cheval de Troie » par secteur + scripts d'approche
+├── grille-tarifaire.md        ← chiffrer sans te sous-vendre : grille, calculateur, scripts
 ├── lessons.md                 ← ton journal de leçons (remplis-le au fil du temps)
 ├── ressources.md              ← liens utiles curatés
 │
@@ -93,7 +97,7 @@ cp .env.example .env.local
 | M5-M8 | Construire sur le starter — et noter tes apprentissages dans `lessons.md` au fil de l'eau |
 | M9 (leçon 3) | Activer les skills (`/nouvelle-section`, `/verifier`) et l'agent `/relecture-design` |
 | M9 (leçon 4) | Créer ton propre atelier en partant de ce modèle (avec la section « Comment me parler » du CLAUDE.md) |
-| M10 et après | Les skills business : `/brief-client` → `/devis-facture` → `/relance-impaye` — l'ordre complet est dans `WORKFLOW.md` |
+| M10 et après | `kit-premier-client.md` (tes mockups de prospection) + `grille-tarifaire.md` (ton chiffrage) + les skills business : `/brief-client` → `/devis-facture` → `/relance-impaye` — l'ordre complet est dans `WORKFLOW.md` |
 | M10-M11 | Réutiliser le starter pour tes mockups de prospection « cheval de Troie » |
 
 ---

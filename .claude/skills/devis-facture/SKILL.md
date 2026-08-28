@@ -26,7 +26,7 @@ grandit) :
 - Dernier n° de devis émis : DEV-2026-000
 - Dernier n° de facture émis : FAC-2026-000
 
-## Ma grille (issue de ma Grille Tarifaire du parcours)
+## Ma grille (fourchettes de référence : grille-tarifaire.md à la racine du Lab)
 - Landing 1 page : [ton prix] €
 - Site vitrine 3-5 pages : [ton prix] €
 - Option formulaire + emails : +[ton prix] €
@@ -41,8 +41,9 @@ IBAN, un numéro d'entreprise ou une mention fiscale.
 - **Type** : devis (préfixe `DEV`) ou facture (préfixe `FAC`).
 - **Client** : nom, contact, email, adresse (+ n° TVA si professionnel).
 - **Prestation(s)** : libellé clair + description en une phrase + prix — tiré
-  de TA grille. Rappels du parcours : **jamais sous 400 €**, et **un prix
-  ferme**, jamais une fourchette (la fourchette est ton outil interne).
+  de TA grille (fourchettes de départ : lis `grille-tarifaire.md` à la racine
+  du Lab). Rappels du parcours : **jamais sous 400 €**, et **un prix ferme**,
+  jamais une fourchette (la fourchette est ton outil interne).
 
 ## Étape 2 — Règles (non négociables)
 

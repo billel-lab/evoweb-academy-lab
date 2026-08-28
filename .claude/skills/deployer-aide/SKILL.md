@@ -77,7 +77,7 @@ Donne ces instructions pas-à-pas :
 3. Dans "Import Git Repository", connecter GitHub si ce n'est pas fait, puis sélectionner le bon repo
 4. Dans la configuration du projet :
    - **Framework Preset** : doit être détecté automatiquement comme "Next.js"
-   - **Root Directory** : laisser vide (sauf si c'est un monorepo — dans ce cas préciser `apps/web`)
+   - **Root Directory** : laisser vide (pour les projets du parcours, c'est toujours le bon choix)
    - **Build Command** : laisser la valeur par défaut (`next build`)
    - **Output Directory** : laisser la valeur par défaut
 
@@ -136,4 +136,4 @@ Les erreurs les plus courantes :
 - **Variable d'environnement manquante** → vérifier que toutes les variables sont bien configurées sur Vercel
 - **Erreur TypeScript** → corriger le type dans le fichier indiqué
 - **Module introuvable** → `npm install [module]` puis re-push
-- **Timeout de build** → projet trop lourd ou boucle infinie dans `getStaticProps`
+- **Timeout de build** → projet trop lourd, ou une boucle infinie dans le code exécuté au moment du build
